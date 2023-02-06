@@ -2,7 +2,7 @@ import connection from '../models/connection';
 import { Order } from '../interfaces/orderInterface';
 import OrderModel from '../models/ordersModel';
 import Token from '../utils/token';
-import { Validation } from '../interfaces/validationsInterfaces';
+import { Validation } from '../interfaces/validationsInterface';
 
 export default class OrderService {
   public model: OrderModel;

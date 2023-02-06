@@ -2,7 +2,7 @@ import UserModel from '../models/userModel';
 import connection from '../models/connection';
 import { User } from '../interfaces/userInterface';
 import Token from '../utils/token';
-import { Validation } from '../interfaces/validationsInterfaces';
+import { Validation } from '../interfaces/validationsInterface';
 
 export default class UserService {
   public model: UserModel;
