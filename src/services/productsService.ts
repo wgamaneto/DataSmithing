@@ -1,7 +1,7 @@
 import ProductsModel from '../models/productsModel';
 import connection from '../models/connection';
 import { Product } from '../interfaces/productinterface';
-import { Validation } from '../interfaces/validationsInterface';
+import { Validation } from '../interfaces/validationsInterfaces';
 
 export default class ProductService {
   public model: ProductsModel;

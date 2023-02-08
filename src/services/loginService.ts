@@ -1,5 +1,5 @@
 import { Login } from '../interfaces/loginInterface';
-import { Validation } from '../interfaces/validationsInterface';
+import { Validation } from '../interfaces/validationsInterfaces';
 import connection from '../models/connection';
 import LoginModel from '../models/loginModel';
 import Token from '../utils/token';
